@@ -9,6 +9,8 @@ public class PP1 {
 		System.out.println(nombre);
 		System.out.println("Hola "+nombre);
 		
+		como estas quiero saber como estas..!!
+		
 	}
 
 }
