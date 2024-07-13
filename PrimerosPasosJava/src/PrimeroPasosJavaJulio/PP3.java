@@ -26,6 +26,8 @@ public class PP3 {
 		
 		JOptionPane.showMessageDialog(null, "La potencia de "+base+ " elevado a "+expo+ ": "+res);
 		
+		System.out.println("Hello");
+		
 		
 		
 		
