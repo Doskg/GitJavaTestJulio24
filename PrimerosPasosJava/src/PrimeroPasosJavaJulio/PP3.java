@@ -1,5 +1,8 @@
 package PrimeroPasosJavaJulio;
 import java.math.*;
+import java.util.*;
+
+import javax.swing.JOptionPane;
 public class PP3 {
 
 	public static void main(String[] args) {
@@ -14,13 +17,17 @@ public class PP3 {
 //		System.out.println("Seno: "+ seno);
 		
 		
-		double base=5;
-		double exp=3;
+		String baseStr=JOptionPane.showInputDialog(null, "Ingresa la base de una potencia");
+		Double base= Double.parseDouble(baseStr);
+		String expoStr=JOptionPane.showInputDialog(null, "Ingresa el exponente para una Potencia");;
+		Double expo= Double.parseDouble(expoStr);
+	  
+		int res =(int)Math.pow(base, expo);
+		
+		JOptionPane.showMessageDialog(null, "La potencia de "+base+ " elevado a "+expo+ ": "+res);
 		
 		
 		
-		int res =(int)Math.pow(base, exp);
-		System.out.println(res);
 		
 
 
