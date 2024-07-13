@@ -1,0 +1,14 @@
+package PrimeroPasosJavaJulio;
+
+public class PP1 {
+
+	public static void main(String[] args) {
+		System.out.println("Primeros pasos en Java curso Youtube Pildoras Informaticas");
+		
+		String nombre="Mi nombre es Oscar";
+		
+		System.out.println(nombre);
+		System.out.println(nombre);
+	}
+
+}
