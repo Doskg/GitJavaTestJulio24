@@ -1,5 +1,7 @@
 package PrimeroPasosJavaJulio;
 
+import javax.swing.JOptionPane;
+
 public class PP1 {
 
 	public static void main(String[] args) {
@@ -8,10 +10,8 @@ public class PP1 {
 		String nombre="Oscar";
 		System.out.println(nombre);
 		System.out.println("Hola "+nombre);
-		
-		como estas quiero saber como estas..!!
-
-		Como estas..!!
+	
+		JOptionPane.showInputDialog(null, "Esta una classe");
 		
 	}
 
