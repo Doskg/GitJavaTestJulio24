@@ -10,6 +10,8 @@ public class PP1 {
 		System.out.println("Hola "+nombre);
 		
 		como estas quiero saber como estas..!!
+
+		Como estas..!!
 		
 	}
 
