@@ -14,9 +14,12 @@ public class PP3 {
 //		System.out.println("Seno: "+ seno);
 		
 		
-		double num1=15.65;
+		double base=5;
+		double exp=3;
 		
-		int  res =(int)Math.round(num1);
+		
+		
+		int res =(int)Math.pow(base, exp);
 		System.out.println(res);
 		
 
